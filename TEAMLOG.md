@@ -31,7 +31,7 @@
 
 
 ## 2026-10-01: Day 2 Workshop:
-* **Present:** Emma , Vanshika
+* **Present:** Vanshika, Emma
 
 * **Scribe:** Vanshika
 
@@ -52,3 +52,28 @@
 
 * **Handoff package:**
   - *Commitments before next Day 2:* Before the next Day 2 session, we will almost complete our warm-up assignment.
+
+
+
+## 2026-10-08: Day 2 Workshop:
+* **Present:** Vanshika, Emma
+
+* **Scribe:** Emma
+
+* **Standup**
+  - *Vanshika:* Tried to finish assignment 2.
+  - *Emma:* Tried to finish assignment 2, stuck on how to do DOM manipulation.
+
+* **Plan**
+  - *Goals for today:*
+    - (1) Finish assignment 2 if possible.
+    - (2) Start working on the capstone project.
+
+* **Build**
+  - *Shipped:* Goals 1 and 2.
+
+* **Review**
+  - *Clean-clone check:* No check needed.
+
+* **Handoff package:**
+  - *Commitments before next Day 2:* Before the next Day 2 session, we will get prepared to work on the capstone project.
