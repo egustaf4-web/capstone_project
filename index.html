@@ -1,12 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CraveCart</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="app.js" defer></script>
-    </head>
-    <body>
-        <h1>CraveCart</h1>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CraveCart</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="brand">CraveCart</h1>
+    <nav>
+      <ul>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="Search">
+      <h2>Craving something?</h2>
+      <form class="controls" role="search">
+        <div class="field">
+          <label for="search">Search by name</label>
+          <input id="search" type="search" placeholder="e.g., bananas">
+        </div>
+        <div class="field">
+          <label for="category">Category</label>
+          <select id="category">
+            <option value="All">All</option>
+            <option value="Fruits">Fruits</option>
+            <option value="Vegetables">Vegetables</option>
+            <option value="Dairy">Dairy</option>
+            <option value="Bakery">Bakery</option>
+            <option value="Meat & Seafood">Meat & Seafood</option>
+            <option value="Beverages">Beverages</option>
+            <option value="Snacks">Snacks</option>
+          </select>
+        </div>
+      </form>
+    </section>
+
+    <section id="products">
+      <h2>Products</h2>
+      <p id="count" role="status"></p>
+      <ul id="list" class="cards"></ul>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>CraveCart is a mock grocery store site.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>CSC 3050</p>
+  </footer>
+</body>
+</html>
