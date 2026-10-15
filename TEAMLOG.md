@@ -77,3 +77,26 @@
 
 * **Handoff package:**
   - *Commitments before next Day 2:* Before the next Day 2 session, we will get prepared to work on the capstone project.
+
+
+## 2026-10-15: Day 2 Workshop:
+* **Present:** Vanshika, Emma
+
+* **Scribe:** Vanshika
+
+* **Standup**
+  - *Vanshika:* Try to completing milestone 1.
+  - *Emma:* Also, working on milestone 1.
+
+* **Plan**
+  - *Goals for today:*
+    - (1) Complete the HTML file for milestone 1.
+    - (2) Also, start working on Css and java.
+* **Build**
+  - *Shipped:*  Goal(1)
+
+* **Review**
+  - *Clean-clone check:* No check needed.
+
+* **Handoff package:**
+  - *Commitments before next Day 2:* Before the next Day 2 session, we will done with our Milestone 1 project.
