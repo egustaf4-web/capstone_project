@@ -23,7 +23,7 @@ const products = [
   { id: 21, name: "Beef",                  category: "Meat & Seafood", quantity: 5, price: 5.99, image: "images/beef.jpg", alt: "A package of ground beef" },
   { id: 22, name: "Pork",                  category: "Meat & Seafood", quantity: 7, price: 3.65, image: "images/pork.jpg", alt: "A package of ground pork" },
   { id: 23, name: "Salmon",                category: "Meat & Seafood", quantity: 3, price: 9.00, image: "images/salmon.jpg", alt: "A package of salmon" },
-  { id: 24, name: "Cod",                   category: "Meat & Seafood", quantity: 5, price: 10.89, image: "images/cod.jpg", alt: "A bad og cod" },
+  { id: 24, name: "Cod",                   category: "Meat & Seafood", quantity: 5, price: 10.89, image: "images/cod.jpg", alt: "A bad of cod" },
   { id: 25, name: "Haddock",               category: "Meat & Seafood", quantity: 10, price: 9.89, image: "images/haddock.jpg", alt: "A bag of haddock" },
   { id: 26, name: "Water",                 category: "Beverages", quantity: 10, price: 3.55, image: "images/water.jpg", alt: "A package of water bottles" },
   { id: 27, name: "Juice",                 category: "Beverages", quantity: 14, price: 2.45, image: "images/juice.jpg", alt: "A large bottle of juice" },
