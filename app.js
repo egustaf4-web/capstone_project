@@ -76,6 +76,7 @@ function render(data) {
     img.alt = r.name;
 
     const price = document.createElement("p");
+    price.className = "price";
     price.textContent = `$${r.price.toFixed(2)}`;
 
     const inventory = document.createElement("p");
