@@ -12,8 +12,8 @@
     <h1><img src="CraveCart.png" alt="CraveCart Logo" class="logo"></h1>
     <nav>
       <ul>
-        <li><a href="#log-in">Account</a></li>
         <li><a href="#look-up">Search</a></li>
+        <li><a href="#log-in">Account</a></li>
         <li><a href="#products">Products</a></li>
         <li><a href="#about">About</a></li>
       </ul>
@@ -21,50 +21,52 @@
   </header>
 
   <main>
-    <section class="login" id="log-in">
-      <h2>Sign in:</h2>
-
-      <form class="login-form">
-        <div class="field">
-          <label for="username">Username</label>
-          <input id="username" type="text" placeholder="example@example.com" autocomplete="username" required>
-        </div>
-
-        <div class="field">
-          <label for="password">Password</label>
-          <input id="password" type="password" autocomplete="current-password" required>
-        </div>
-
-        <button type="submit">Log in</button>
-      </form>
-
-      <p id="welcome" role="status"></p>
-    </section>
-
-    <section id="look-up">
-      <h2>Craving something?</h2>
-      
-      <form class="controls" role="search">
-        <div class="field">
-          <label for="search">Search by name</label>
-          <input id="search" type="search" placeholder="e.g., bananas">
-        </div>
+    <div class="top-section">
+      <section id="look-up">
+        <h2>Craving something?</h2>
         
-        <div class="field">
-          <label for="category">Category</label>
-          <select id="category">
-            <option value="All">All</option>
-            <option value="Fruits">Fruits</option>
-            <option value="Vegetables">Vegetables</option>
-            <option value="Dairy">Dairy</option>
-            <option value="Bakery">Bakery</option>
-            <option value="Meat & Seafood">Meat & Seafood</option>
-            <option value="Beverages">Beverages</option>
-            <option value="Snacks">Snacks</option>
-          </select>
-        </div>
-      </form>
-    </section>
+        <form class="controls" role="search">
+          <div class="field">
+            <label for="search">Search by name</label>
+            <input id="search" type="search" placeholder="e.g., bananas">
+          </div>
+          
+          <div class="field">
+            <label for="category">Category</label>
+            <select id="category">
+              <option value="All">All</option>
+              <option value="Fruits">Fruits</option>
+              <option value="Vegetables">Vegetables</option>
+              <option value="Dairy">Dairy</option>
+              <option value="Bakery">Bakery</option>
+              <option value="Meat & Seafood">Meat & Seafood</option>
+              <option value="Beverages">Beverages</option>
+              <option value="Snacks">Snacks</option>
+            </select>
+          </div>
+        </form>
+      </section>
+
+      <section class="login" id="log-in">
+        <h2>Sign in</h2>
+
+        <form class="login-form">
+          <div class="field">
+            <label for="username">Username</label>
+            <input id="username" type="text" placeholder="example@example.com" autocomplete="username" required>
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label>
+            <input id="password" type="password" autocomplete="current-password" required>
+          </div>
+
+          <button type="submit">Log in</button>
+        </form>
+
+        <p id="welcome" role="status"></p>
+      </section>
+    </div>
 
     <section id="products">
       <h2>Products</h2>
