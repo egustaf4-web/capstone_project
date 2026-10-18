@@ -12,6 +12,7 @@
     <h1 class="brand">CraveCart</h1>
     <nav>
       <ul>
+        <li><a href="#account">Account</a></li>
         <li><a href="#search">Search</a></li>
         <li><a href="#products">Products</a></li>
         <li><a href="#about">About</a></li>
@@ -20,6 +21,26 @@
   </header>
 
   <main>
+    <section class="login" id="log-in">
+      <h2>Sign in:</h2>
+
+      <form class="login-form">
+        <div class="field">
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="example@example.com" autocomplete="username" required>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" type="password" autocomplete="current-password" required>
+        </div>
+
+        <button type="submit">Log in</button>
+      </form>
+
+      <p id="welcome" role="status"></p>
+    </section>
+
     <section id="look-up">
       <h2>Craving something?</h2>
       
