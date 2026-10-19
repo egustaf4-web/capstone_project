@@ -98,7 +98,10 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: var(--space-lg);
+    
   }
+  #look-up { grid-column: 1; grid-row: 1; }
+  #log-in  { grid-column: 2; grid-row: 1; }
   #products, #about { grid-column: 1 / -1; } 
   .cards { grid-template-columns: 1fr 1fr; }
 }
