@@ -102,7 +102,7 @@
   - *Commitments before next Day 2:* Before the next Day 2 session, we will done with our Milestone 1 project.
 
 
-## 2026-1022: Day 2 Workshop:
+## 2026-10-22: Day 2 Workshop:
 * **Present:** Vanshika, Emma
 
 * **Scribe:** Emma
