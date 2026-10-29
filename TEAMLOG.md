@@ -123,3 +123,24 @@
 
 * **Handoff package:**
   - *Commitments before next Day 2:* Before the next Day 2 session, we will watch videos to get prepared to work on the Module 3 Assignment.
+
+## 2026-10-29: Day 2 Workshop:
+* **Present:** Vanshika, Emma
+
+* **Scribe:** Vanshika
+
+* **Standup**
+  - *Vanshika:* Working on module 3.
+  - *Emma:* Working on module 3.
+
+* **Plan**
+  - *Goals for today:*
+    - (1) Finish module 3.
+* **Build**
+  - *Shipped:* Goal 1
+
+* **Review**
+  - *Clean-clone check:* No check needed.
+
+* **Handoff package:**
+  - *Commitments before next Day 2:* Before the next Day 2 session, we will be working on our milestone 2 and get done with final version of handout package.
