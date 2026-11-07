@@ -19,11 +19,12 @@ A validation error also lists what failed:
 |---|---|---|
 | `id` | integer | assigned by the server |
 | `name` | string | required, not blank |
-| `category` | string | one of `Fruits`, `Vegatables`, `Dairy`, `Bakery`, `Meat & Seafood`, `Beverages`, `Snacks` |
-| `quantity` | integer | integer, allowed to be 0 or more|
-| `price` | integer | number, greater than 0 |
+| `category` | string | one of `Fruits`, `Vegatables`, `Dairy`, `Bakery` `Meat & Seafood`, `Beverages`, `Snacks` |
+| `quantity` | integer | required, allowed to be 0 or more|
+| `price` | integer | required, greater than 0 |
 | `image` | jpg     | A image of products|
-| `Alt`   |  string | Alt of the image |
+| `Alt`   | string  | Alt of the image |
+
 ## Endpoints
 
 | Method and path | Request body | Success | Errors |
