@@ -160,10 +160,10 @@
   - *Goals for today:*
     - (1) Finish milestone 3.
 * **Build**
-  - *Shipped:* 
+  - *Shipped:* Goal 1
 
 * **Review**
-  - *Clean-clone check:* 
+  - *Clean-clone check:* Server works.
 
 * **Handoff package:**
-  - *Commitments before next Day 2:* Before the next Day 2 session, we will 
+  - *Commitments before next Day 2:* Before the next Day 2 session, we will get ready to pitch our project for when we hand it off.
