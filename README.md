@@ -34,3 +34,19 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# CraveCart: one endpoint, one component
+
+For this assignment, you will need 2 terminals to run the full backend.
+
+## Running the API (terminal 1)
+
+    cd server
+    npm install
+    npm start          # http://localhost:3001/api/products
+
+## Running the React app (terminal 2)
+
+    cd client
+    npm install
+    npm run dev        # http://localhost:5173
