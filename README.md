@@ -18,23 +18,6 @@ Flexbox is the tool for one dimensional flows where the size of the content is w
 
 Challenge: Our main layout roadblock hit at the tablet breakpoint: positioning the "#look-up" (search) and "#log-in" forms side-by-side. Initially, we tried applying CSS alignment properties directly to internal form controls. However, this only shifted child labels and inputs while leaving parent headings anchored on the left, causing visual misalignment between forms and their headers.We resolved this by shifting grid context to the parent container. By declaring main as a two-column CSS Grid at the tablet media query, we placed #look-up in column 1 and #log-in in column 2. Treating whole section elements as grid items ensured headings and form elements moved as unified blocks, while subsequent full-width sections used grid-column: 1 / -1 to span across both columns smoothly.
 
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
 # CraveCart: one endpoint, one component
 
 For this assignment, you will need 2 terminals to run the full backend.
