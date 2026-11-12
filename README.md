@@ -20,7 +20,7 @@ Challenge: Our main layout roadblock hit at the tablet breakpoint: positioning t
 
 # CraveCart: one endpoint, one component
 
-For this assignment, you will need 2 terminals to run the full backend.
+For this project, you will need 2 terminals to run the full backend.
 
 ## Running the API (terminal 1)
 
